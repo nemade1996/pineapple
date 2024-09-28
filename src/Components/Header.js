@@ -56,7 +56,7 @@ const Header = () => {
       <div className="relative z-20 w-full h-16 sm:h-20 lg:h-24">
         <div className="flex z-20 w-full h-16 px-4 text-gray-700 bg-white sm:h-20 lg:h-24 md:px-8 lg:px-6">
           <div className="flex justify-start items-center mx-auto max-w-[1920px] h-full w-full">
-            <Link className="inline-flex focus:outline-none" to="/">
+            <Link className="inline-flex focus:outline-none" to="/pineapple">
               <img src={logo} className="flex-none w-14 md:w-20 lg:w-24 xl:w-28 h-auto object-contain" alt="logo" />
             </Link>
           </div>
@@ -80,16 +80,16 @@ const Header = () => {
 
             <ul className={`flex ${isMenuIsOpen ? 'flex-col' : 'hidden'} fixed top-14 left-0 w-full md:w-auto md:top-0 md:left-0 md:relative lg:relative my-0 sm:my-2 p-2 bg-white md:my-4 lg:my-8 xl:my-8 sm:flex`} onClick={handleMenuClick}>
               <li className="py-2 mx-2 sm:mx-2 lg:mx-3 xl:mx-5 cursor-pointer hover:text-yellow-500 bg-white text-gray-lite font-medium  flex text-xtiny items-center">
-                <Link to="/">Home</Link>
+                <Link to="/pineapple/">Home</Link>
               </li>
               <li className="py-2 mx-2 sm:mx-2 lg:mx-3 xl:mx-5 cursor-pointer hover:text-yellow-500 bg-white text-gray-lite font-medium flex text-xtiny items-center">
-                <Link to="/about">About</Link>
+                <Link to="/pineapple/about">About</Link>
               </li>
               <li className="py-2 mx-2 sm:mx-2 lg:mx-3 xl:mx-5 cursor-pointer hover:text-yellow-500 bg-white text-gray-lite font-medium flex text-xtiny items-center">
-                <Link to="/products">Products</Link>
+                <Link to="/pineapple/products">Products</Link>
               </li>
               <li className="py-2 mx-2 sm:mx-2 lg:mx-3 xl:mx-5 cursor-pointer hover:text-yellow-500 bg-white text-gray-lite font-medium flex text-xtiny items-center">
-              <Link to="/contact">Contact</Link>
+              <Link to="/pineapple/contact">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -120,18 +120,18 @@ const Header = () => {
                   Hello, {user.name}
                 </p>
               ) : (
-                <Link to="/signin">
+                <Link to="/pineapple/signin">
                   <button className="text-sm font-semibold xl:text-base text-heading">Sign In</button>
                 </Link>
               )}
             </div>
-            <Link to="/cart">
+            <Link to="/pineapple/cart">
               <button className="relative flex items-center justify-center flex-shrink-0 h-auto transform focus:outline-none" aria-label="cart-button">
                 <img src={cart} alt="cart icon" />
                 <span className="cart-counter-badge">{totalItem.length}</span>
               </button>
             </Link>
-            <Link to="/wishlist">
+            <Link to="/pineapple/wishlist">
               <button className="relative flex items-center justify-center flex-shrink-0 h-auto transform focus:outline-none">
                 <img src={heart} alt="wishlist icon" className="h-6 w-6"/>
                 <span className="cart-counter-badge">{wishlistData.length}</span>

@@ -38,39 +38,39 @@ function App() {
 
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    path: "/pineapple",
     element:<App/>,
     children:[
       {
-        path: "/",
+        path: "/pineapple",
         element:<Intro/>
       },
       {
-        path: "/about",
+        path: "/pineapple/about",
         element:<About/>
       },
       {
-        path: "/products",
+        path: "/pineapple/products",
         element:<ProductFilter/>
       },
       {
-        path: "/contact",
+        path: "/pineapple/contact",
         element:<Contact/>
       },
       {
-        path: "/signin",
+        path: "/pineapple/signin",
         element:<SignIn/>
       },
       {
-        path: "/product/:productId",
+        path: "/pineapple/product/:productId",
         element:<ProductDetail/>
       },
       {
-        path: "/cart",
+        path: "/pineapple/cart",
         element:<Cart/>
       },
       {
-        path: "/wishlist",
+        path: "/pineapple/wishlist",
         element:<Wishlist/>
       },
   ],
