@@ -45,7 +45,7 @@ const Product = ({id, title, desc, price, imgSrc, category}) => {
             <img  className="w-full h-[120px] lg:h-[200px] lg:w-3/4 lg:m-auto object-contain" src={imgSrc}/>
             <h6 className='uppercase text-xs md:text-sm mt-2 text-yellow-600 mb-2'>{category}</h6>
             <h2 className='mb-1 text-xs md:text-sm font-semibold text-heading min-h-[2.2rem] md:min-h-[3.5rem] text-left cursor-pointer hover:text-yellow-600'>
-              <Link to={`/product/${id}`}>{truncatedTitle}</Link>
+              <Link to={`/pineapple/product/${id}`}>{truncatedTitle}</Link>
             </h2>
             <span className='inline-block false text-gray-900'>₹ {price}</span>
             <div className="flex justify-between w-full mt-2 border-t border-solid border-gray-300 pt-3">

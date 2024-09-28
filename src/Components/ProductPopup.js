@@ -14,7 +14,7 @@ const ProductPopup = ({ searchTerm = '' }) => {
       <div className="w-80 z-10 h-96 overflow-y-auto rounded-lg bg-white shadow-lg">
         {filteredProducts.length > 0 ? (
           filteredProducts.map(product => (
-            <Link to={"/product/" + product.id} key={product.id}>
+            <Link to={"product/" + product.id} key={product.id}>
               <div className="p-4 flex items-center space-x-4 border-b border-gray-300 hover:bg-gray-100 transition-colors duration-300">
                 <img src={product.image} className="h-14 w-14 object-contain flex-shrink-0" alt={product.title} />
                 <div className="font-semibold text-sm line-clamp-2 text-left">{product.title}</div>
