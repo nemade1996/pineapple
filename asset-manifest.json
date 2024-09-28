@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pineapple/static/css/main.d958edd0.css",
+    "main.js": "/pineapple/static/js/main.a3738af8.js",
+    "static/js/453.8c2d1cb1.chunk.js": "/pineapple/static/js/453.8c2d1cb1.chunk.js",
+    "static/media/banner-1.webp": "/pineapple/static/media/banner-1.24d1276146299baf6957.webp",
+    "static/media/banner-2.webp": "/pineapple/static/media/banner-2.906ea37c7cec9e4af9ed.webp",
+    "static/media/contact.webp": "/pineapple/static/media/contact.6aa1639acef9106fd471.webp",
+    "static/media/about.jpg": "/pineapple/static/media/about.e4e2aa508b3a0454a18a.jpg",
+    "static/media/founder.jpg": "/pineapple/static/media/founder.e5058ed62133aed2aad5.jpg",
+    "static/media/logo-white.png": "/pineapple/static/media/logo-white.8e9674b06c4ff78eb260.png",
+    "static/media/logo.png": "/pineapple/static/media/logo.aeaaf4b2bb4f42750231.png",
+    "static/media/p-4.webp": "/pineapple/static/media/p-4.8f3440eb82c2720892d8.webp",
+    "static/media/emptyCart.svg": "/pineapple/static/media/emptyCart.562d16b3bb857c37b70a05880a422032.svg",
+    "static/media/heart.svg": "/pineapple/static/media/heart.ff902fec0f17546279513500d9d3f5f8.svg",
+    "index.html": "/pineapple/index.html",
+    "static/media/search.svg": "/pineapple/static/media/search.4a128d6b227edc443be46451ea7d6bd3.svg",
+    "static/media/cart.svg": "/pineapple/static/media/cart.e0c9e6cf3c6e917f5b0f784d9a637217.svg",
+    "main.d958edd0.css.map": "/pineapple/static/css/main.d958edd0.css.map",
+    "main.a3738af8.js.map": "/pineapple/static/js/main.a3738af8.js.map",
+    "453.8c2d1cb1.chunk.js.map": "/pineapple/static/js/453.8c2d1cb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d958edd0.css",
+    "static/js/main.a3738af8.js"
+  ]
+}
