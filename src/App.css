@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.Toastify__progress-bar--success {
+  background: #eab308 !important;
+}
